@@ -574,7 +574,7 @@ div#preloader {
 
 #hero .carousel-item::before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(39, 38, 38, 0.7);
 }
 
 #hero .carousel-container {
@@ -1105,7 +1105,7 @@ div#preloader {
 }
 
 .awesome-img>a::after {
-  background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+  background: rgba(203, 214, 183, 0.7) none repeat scroll 0 0;
   content: "";
   height: 100%;
   left: 0;
@@ -1316,7 +1316,7 @@ div#preloader {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/background/slider-bg.jpg") no-repeat;
+  background: url("https://img.freepik.com/free-photo/collage-customer-experience-concept_23-2149367121.jpg?w=1060&t=st=1680857256~exp=1680857856~hmac=b5333d691ae70dfce755f49a0aba61ef649f15c87021b2c2b66678d3dc482111") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
