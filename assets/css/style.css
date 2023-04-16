@@ -2576,3 +2576,140 @@ span.email-notes {
     padding: 0;
   }
 }
+
+.chat{
+  padding-top: 20px;
+  color: rgb(13, 155, 244);
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .whatsapp_img{
+    width: 200px; } }
+
+    .contact-rooo {
+      padding: 50px;
+      background-color: #FFF; }
+      @media screen and (max-width: 940px) {
+        .contact-rooo {
+          padding: 30px 10px; } }
+    
+    .contact-rooo {
+      padding: 50px;
+      background-color: #FFF; }
+      @media screen and (max-width: 940px) {
+        .contact-rooo {
+          padding: 30px 10px; } }
+    
+    .contact-us-single {
+      background: linear-gradient(to right, #70e1f5, #ffd194); 
+    }
+      .contact-us-single .cop-ck {
+        padding: 10px 30px; }
+        .contact-us-single .cop-ck h2 {
+          font-size: 22px;
+          margin-bottom: 20px; }
+      .contact-us-single .cf-ro {
+        margin-top: 10px; }    
+
+/* Start Servicing pricing table */
+
+.box{
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+  border-radius:10px;
+  overflow:hidden; 
+}
+
+.slide-img{
+  height: 300px;
+  position: relative;
+}
+
+.slide-img img{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+.detail-box{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  font-family: calibari;
+}
+.type{
+  display: flex;
+  flex-direction: column;
+
+}
+.type a{
+  color: #5c5959;
+  margin: 5px 8px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding-right: 8px;
+}
+
+.text span{
+  color:rgba(26,26,26,.5);
+
+}
+.price{
+  color:#ea2222;
+  font-weight: 600;
+  font-size: 1.1rem;
+  font-family: poppins;
+  letter-spacing: .5px;
+}
+
+.overlay{
+  position:absolute;
+  left:50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(92,95,236,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buy-btn{
+  width: 160px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  color: #252525;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: calibri;
+  border-radius: 20px;
+  box-shadow: 2px 2px 30px rgba(0,0,0,.2)
+}
+.buy-btn:hover{
+  color:#ffffff;
+  background-color: #f15fa3;
+  transition: all ease 0.3s;
+}
+.overlay{
+  visibility: hidden;
+}
+.slide-img:hover .overlay{
+  visibility:visible;
+  animation: fade 0.5s;
+}
+@keyframes fade {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}        
+
+/* End Servicing pricing table */
