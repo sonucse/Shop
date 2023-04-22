@@ -1413,8 +1413,9 @@ div#preloader {
 # Quote
 --------------------------------------------------------------*/
 .suscribe-area {
-  background: #3EC1D5 none repeat scroll 0 0;
-  padding: 30px 0;
+  background: linear-gradient(to right, #eecda3, #ef629f);
+  margin-top: 2px;
+  padding: 4px 0;
 }
 
 .suscribe-text {
@@ -2646,15 +2647,18 @@ span.email-notes {
 
 }
 .type a{
-  color: #5c5959;
-  margin: 5px 8px;
+  color: #8d60f7;
   font-weight: 700;
   letter-spacing: 0.5px;
   padding-right: 8px;
 }
 
 .text span{
-  color:rgba(26,26,26,.5);
+  color: #8d60f7;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding-right: 8px;
+
 
 }
 .price{
