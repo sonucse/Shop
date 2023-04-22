@@ -2181,9 +2181,10 @@ span.email-notes {
 }
 
 .flicker-img>a {
+  margin-top: 6px;
   float: left;
   padding: 1px;
-  width: 33.33%;
+  width: 46%;
 }
 
 .footer-icons {
