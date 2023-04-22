@@ -2179,12 +2179,25 @@ span.email-notes {
 .footer-icons ul li a i {
   line-height: 0;
 }
+.container-dev {
+  justify-content: center;
+  align-items: center;
+}
 
-.flicker-img>a {
+.flicker-img>img {
   margin-top: 6px;
   float: left;
   padding: 1px;
   width: 46%;
+  border-radius: 20%;
+  
+}
+
+.text-side {
+  color: #0000FF;
+  margin-left: 180px;
+  font-size: 10px;
+  
 }
 
 .footer-icons {
